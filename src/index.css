@@ -1,0 +1,65 @@
+@import url(https://fonts.googleapis.com/css?family=Keania+One:regular);
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=Calligraffitti:regular);
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  /* font-family: Keania One; */
+}
+
+.calli{
+  font-family: Calligraffitti;
+}
+
+#logo h1{
+  font-family: Calligraffitti;
+}
+
+
+/* styles.css */
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  marginRight: -50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 20px;
+  borderRadius: 4px;
+  outline: none;
+}
+
+.overlay {
+  backgroundColor: rgba(0, 0, 0, 0.75);
+}
+
+.modal-actions {
+  display: flex;
+  justifyContent: space-between;
+  margin-top: 20px;
+}
+
+.confirm-button {
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.cancel-button {
+  background-color: gray;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
