@@ -99,7 +99,7 @@ const School_Data = () => {
           }
         </div>
         <div className="w-1/2 flex items-center justify-center max-sm:w-full">
-            <img src="src/assets/images/segment.png" className='w-[400px] scale-125 z-20' alt="" />
+            <img src="public/segment.png" className='w-[400px] scale-125 z-20' alt="" />
         </div>
 
     </div>

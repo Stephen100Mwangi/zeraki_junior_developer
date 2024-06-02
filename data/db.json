@@ -307,14 +307,14 @@
       "school": "Green View Schools",
       "invoiceDate": "2022-01-01",
       "dueDate": "2022-02-01",
-      "invoiceStatus": "Paid",
+      "invoiceStatus": "paid",
       "amount": 2000,
       "schoolId": 1,
       "invoiceNumber": "INV-001",
       "invoiceItem": "Zeraki Analytics",
       "creationDate": "2023-05-01",
       "paidAmount": 4500,
-      "balance": 500
+      "balance": 0
     },
     {
       "id": "2",

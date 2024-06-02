@@ -62,7 +62,7 @@ const SchoolCollections = () => {
     <div id="schoolCollection" className="flex flex-col justify-center items-center space-y-8 my-12">
     <h1 className='border-b-2 pb-3 text-center text-2xl font-bold'>Collections</h1>
     <div className="flex items-center justify-center">
-      <img src="src/assets/images/invoice.png" className='w-64' alt="" />
+      <img src="public/invoice.png" className='w-64' alt="" />
     </div>
     <div>
       <p className='text-2xl capitalize font-bold text-center'>Keep your <span className='text-hover'>records</span> close to yourself</p>
