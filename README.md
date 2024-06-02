@@ -17,3 +17,9 @@ This project employs the ChartJS libraries for displaying the bar graphs and pie
 # USER EXPERIENCE #
 
 To enhance user experience I have implemented Toast, Toaster, react-modal - This will ensure a smooth and intuitive user interaction
+
+This project is well designed to work on both large and small screen sizes.
+
+# ROUTERS #
+
+This project utilizes react router dom for routing and moving in between pages

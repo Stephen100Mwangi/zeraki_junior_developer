@@ -34,7 +34,7 @@ const School_Data = () => {
       }
       
   return (
-    <div className="flex flex-row max-md:flex-col max-sm:space-y-10">
+    <div id='schoolData' className="flex flex-row max-md:flex-col max-sm:space-y-10">
         <div id='schools' className="w-1/2 flex flex-col space-y-8 items-center justify-start max-sm:w-full">
           <div className="flex flex-row space-x-5 justify-between items-center w-full border-b-2 p-2">
             <h2 className='font-bold text-xl'>Name of School</h2>

@@ -190,7 +190,7 @@ const SchoolInvoices = () => {
 
   return (
     <div
-      id="invoices"
+      id="schoolInvoice"
       className="flex flex-col space-y-8 items-center justify-start"
     >
       <h1 className="text-center font-bold text-2xl border-b-2 pb-3">
@@ -249,9 +249,9 @@ const SchoolInvoices = () => {
               >
                 Create Invoice
               </button>
-              <button className="text-white bg-hover font-medium flex text-center items-center justify-center shadow-xl px-6 p-2 rounded-full">
+              {/* <button className="text-white bg-hover font-medium flex text-center items-center justify-center shadow-xl px-6 p-2 rounded-full">
                 Read Invoice
-              </button>
+              </button> */}
               <button
                 onClick={() => setSeeUpdate(!seeUpdate)}
                 className="text-black outline font-medium flex text-center items-center justify-center shadow-xl px-6 p-2 rounded-full"
