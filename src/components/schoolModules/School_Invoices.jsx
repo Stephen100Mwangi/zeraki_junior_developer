@@ -197,7 +197,7 @@ const SchoolInvoices = () => {
         Invoices
       </h1>
       <div className="flex items-center justify-center">
-        <img src="public/invoice_.png" className="w-64" alt="" />
+        <img src="./invoice_.png" className="w-64" alt="" />
       </div>
       <div className="grid grid-cols-5 gap-10 items-center justify-start flex-wrap border-t-2 pt-10">
         {schools.map((item, index) => (
@@ -239,7 +239,7 @@ const SchoolInvoices = () => {
                 Date: {invoice.invoiceDate}
               </p>
               <p className="font-medium">Status: {invoice.invoiceStatus}</p>
-              <img src="public/found.png" className="h-32" alt="" />
+              <img src="./found.png" className="h-32" alt="" />
             </div>
 
             <div className="flex flex-col space-y-3">
@@ -274,7 +274,7 @@ const SchoolInvoices = () => {
               <CgClose className="text-white" />
             </div>
             <div className="flex flex-col space-y-4">
-              <img src="public/404.png" className="h-32" alt="" />
+              <img src="./404.png" className="h-32" alt="" />
               <p className="text-red-600 font.bold">
                 No invoice found for this resource
               </p>
