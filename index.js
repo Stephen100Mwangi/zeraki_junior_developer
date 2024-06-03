@@ -1,11 +1,18 @@
-// import { jsonServer } from 'json-server'
-import { create, router as _router, defaults } from 'json -server';
+import { create, router as _router, defaults } from 'json-server';
 const server = create();
-const router = _router("data/db.json");
+const router = _router('db.json');
 const middlewares = defaults();
-const port = 8000;
 
 server.use(middlewares);
-server.use(router);
+server.use((req, res, next) => {
+  res.header('Access-Control-Allow-Origin', '*');
+  res.header('Access-Control-Allow-Methods', 'GET, POST, PATCH, PUT, DELETE, OPTIONS');
+  res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
+  next();
+});
 
-server.listen(port);
+server.use(router);
+server.listen(8000, () => {
+  console.log('JSON Server is running');
+});
+
