@@ -22,3 +22,7 @@ server.listen(8000, () => {
   console.log('JSON Server is running');
 });
 
+// {
+//     "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+//   }
+
