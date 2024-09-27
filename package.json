@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "start": "node index.js",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "serve-json": "json-server --watch data/db.json --port 8000"
@@ -15,7 +16,6 @@
     "chart.js": "^4.4.3",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
-    "json-serve": "^0.1.0",
     "json-server": "^1.0.0-beta.0",
     "nodemon": "^3.1.2",
     "react": "^18.2.0",
@@ -25,7 +25,9 @@
     "react-icons": "^5.2.1",
     "react-modal": "^3.16.1",
     "react-router-dom": "^6.23.1",
-    "toastr": "^2.1.4"
+    "toastr": "^2.1.4",
+    "express": "^4.18.2",
+    "http-proxy-middleware": "^2.0.6"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",
@@ -41,7 +43,7 @@
     "vite": "^5.2.0"
   },
   "description": "<!-- Zeraki Students Management System -->\r <!-- SERVER -->\r # Server #",
-  "main": "postcss.config.js",
+  "main": "server.js",
   "keywords": [],
   "author": "",
   "license": "ISC"

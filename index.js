@@ -1,28 +1,25 @@
-import { create, router as _router, defaults } from 'json-server';
-import cors from 'cors'
-const server = create();
-const router = _router('db.json');
-const middlewares = defaults();
-import dotenv from 'dotenv'
+import {create, router as _router, defaults} from 'json-server';
+import cors from 'cors';
+import dotenv from 'dotenv';
 
-dotenv.config();
+// Load environment variables from .env file
+dotenv.config ();
 
+const server = create ();
+const router = _router ('db.json');
+const middlewares = defaults ();
 
-server.use(middlewares);
-server.use((req, res, next) => {
-  res.header('Access-Control-Allow-Origin', '*');
-  res.header('Access-Control-Allow-Methods', 'GET, POST, PATCH, PUT, DELETE, OPTIONS');
-  res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
-  next();
+// Use default middlewares (logging, static file serving, etc.)
+server.use (middlewares);
+
+// Enable CORS
+server.use (cors ());
+
+// Set up the router (for db.json)
+server.use (router);
+
+// Listen on the environment-defined port or 8000
+const PORT = process.env.PORT || 8000;
+server.listen (PORT, () => {
+  console.log (`JSON Server is running on port ${PORT}`);
 });
-
-server.use(router);
-server.use(cors());
-server.listen(8000, () => {
-  console.log('JSON Server is running');
-});
-
-// {
-//     "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
-//   }
-

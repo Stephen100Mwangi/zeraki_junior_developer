@@ -5,10 +5,17 @@ const BouncedCheques = () => {
   const [count,setCount] = useState(0);
 
   useEffect(()=>{
-    fetch("http://localhost:8000/bouncedCheques").then(response =>{
+     const apiUrl = import.meta.env.VITE_API_URL;
+    
+
+    fetch(`${apiUrl}/bouncedCheques`).then(response =>{
       if (!response) {
         console.log("No response found");
       }else{
+        const myCount = response.json();
+        setCount(myCount.length)
+        console.log(response.json());
+        
         return response.json();
       }
     }).then(data => {
