@@ -3,7 +3,8 @@ import React, { useEffect, useState } from 'react'
 const CollectionCard = () => {
   const [count,setCount] = useState(0);
   useEffect(()=>{
-    fetch("http://localhost:8000/collections").then(response => {
+    const apiUrl = import.meta.env.VITE_API_URL;
+    fetch(`${apiUrl}/collections`).then(response => {
       return response.json()
     }).then((data)=>{
       setCount(data.length);

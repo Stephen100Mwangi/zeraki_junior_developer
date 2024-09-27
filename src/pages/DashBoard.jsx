@@ -22,8 +22,10 @@ const DashBoard = () => {
   // const [paid_SchoolInvoice, setPaid_SchoolInvoice] = useState(0);
   const [InvoiceNumber_School, setInvoiceNumber_School] = useState("");
 
+   const apiUrl = import.meta.env.VITE_API_URL;
   useEffect(() => {
-    fetch("http://localhost:8000/invoices?_sort=invoiceDate&_order=desc")
+    const apiUrl = import.meta.env.VITE_API_URL;
+    fetch(`${apiUrl}/invoices?_sort=invoiceDate&_order=desc`)
       .then(response => {
         if (!response.ok) {
           console.log("No response found");
@@ -40,7 +42,7 @@ const DashBoard = () => {
   }, []);
 
   const updateInvoices = () => {
-    fetch(`http://localhost:8000/invoices?invoiceNumber=${InvoiceNumber_School}&school=${name_SchoolInvoice}`)
+    fetch(`${apiUrl}/invoices?invoiceNumber=${InvoiceNumber_School}&school=${name_SchoolInvoice}`)
       .then(response => {
         if (!response.ok) {
           console.log("No response found");
@@ -53,7 +55,7 @@ const DashBoard = () => {
       .then(data => {
         if (data.length > 0) {
           const invoice = data[0];
-          fetch(`http://localhost:8000/invoices/${invoice.id}`, {
+          fetch(`${apiUrl}/invoices/${invoice.id}`, {
             method: 'PATCH',
             headers: {
               'Content-Type': 'application/json',
