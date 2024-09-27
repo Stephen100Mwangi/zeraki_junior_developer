@@ -22,8 +22,8 @@ server.use(middlewares);
 // Enable CORS using the `cors` package
 server.use(cors());
 
-// Use JSON Server router
-server.use('/api', router); // Prefix API routes with /api
+// Use JSON Server router with API prefix
+server.use('/api', router);
 
 // Define the port to listen on, defaulting to 8000 if PORT isn't set
 const PORT = process.env.PORT || 8000;
