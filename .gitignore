@@ -26,3 +26,17 @@ dist-ssr
 *.sw?
 
 backend/node_modules
+
+
+# .gitignore
+
+# Node modules
+node_modules/
+
+# Environment variables
+frontend/.env
+backend/.env
+
+# Build outputs
+frontend/dist/
+backend/node_modules/
