@@ -1,0 +1,549 @@
+{
+  "schools": [
+    {
+      "id": "1",
+      "name": "Green View Schools",
+      "county": "Mombasa",
+      "type": "Primary",
+      "product": "Zeraki Finance",
+      "registrationDate": "2022-01-01",
+      "contact": "green.view@schools.ac.ke",
+      "balance": 2000
+    },
+    {
+      "id": "2",
+      "name": "Slopes View Schools",
+      "county": "Mombasa",
+      "type": "Primary",
+      "product": "Zeraki Finance",
+      "registrationDate": "2022-05-01",
+      "contact": "slopes.view@schools.ac.ke",
+      "balance": 5000
+    },
+    {
+      "id": "3",
+      "name": "Crescent View Schools",
+      "county": "Mombasa",
+      "type": "Secondary",
+      "product": "Zeraki Analytics",
+      "registrationDate": "2023-11-01",
+      "contact": "crescent.view@schools.ac.ke",
+      "balance": 1000
+    },
+    {
+      "id": "4",
+      "name": "Ubora Academy",
+      "county": "Kilifi",
+      "type": "Primary",
+      "product": "Zeraki Analytics",
+      "registrationDate": "2020-12-01",
+      "contact": "ubora.academy@schools.ac.ke",
+      "balance": 3000
+    },
+    {
+      "id": "5",
+      "name": "Happy Land Academy",
+      "county": "Kilifi",
+      "type": "IGCSE",
+      "product": "Zeraki Analytics",
+      "registrationDate": "2022-08-08",
+      "contact": "happy.land.academy@schools.ac.ke",
+      "balance": 5000
+    },
+    {
+      "id": "6",
+      "name": "Nyeri DEB Primary School",
+      "county": "Nyeri",
+      "type": "Primary",
+      "product": "Zeraki Analytics",
+      "registrationDate": "2024-07-01",
+      "contact": "nyeri.deb@schools.ac.ke",
+      "balance": 1000
+    },
+    {
+      "id": "7",
+      "name": "Green Valley Preparatory School",
+      "county": "Nairobi",
+      "type": "Primary",
+      "product": "Zeraki Analytics",
+      "registrationDate": "2024-02-01",
+      "contact": "green.view@schools.ac.ke",
+      "balance": 2000
+    },
+    {
+      "id": "8",
+      "name": "Smart Achievers High School - Kitale",
+      "county": "Trans-Nzoia",
+      "type": "Secondary",
+      "product": "Zeraki Analytics",
+      "registrationDate": "2022-01-01",
+      "contact": "smart.achievers@schools.ac.ke",
+      "balance": 3000
+    },
+    {
+      "id": "9",
+      "name": "Kapsabet High School - Nakuru",
+      "county": "Nakuru",
+      "type": "Secondary",
+      "product": "Zeraki Timetable",
+      "registrationDate": "2020-11-01",
+      "contact": "kapsabet.high@schools.ac.ke",
+      "balance": 5000
+    },
+    {
+      "id": "10",
+      "name": "Kagumo High School",
+      "county": "Nyeri",
+      "type": "Secondary",
+      "product": "Zeraki Timetable",
+      "registrationDate": "2022-01-01",
+      "contact": "kagumo.high@schools.ac.ke",
+      "balance": 1000
+    },
+    {
+      "id": "11",
+      "name": "International School of Kenya",
+      "county": "Nairobi",
+      "type": "IGCSE",
+      "product": "Zeraki Analytics",
+      "registrationDate": "2021-09-01",
+      "contact": "info@isk.ac.ke",
+      "balance": 7000
+    },
+    {
+      "id": "12",
+      "name": "Braeburn School",
+      "county": "Nairobi",
+      "type": "IGCSE",
+      "product": "Zeraki Finance",
+      "registrationDate": "2020-01-01",
+      "contact": "info@braeburn.ac.ke",
+      "balance": 6000
+    },
+    {
+      "id": "13",
+      "name": "Peponi School",
+      "county": "Kiambu",
+      "type": "IGCSE",
+      "product": "Zeraki Timetable",
+      "registrationDate": "2022-06-01",
+      "contact": "info@peponischool.org",
+      "balance": 4000
+    },
+    {
+      "id": "14",
+      "name": "Rift Valley Academy",
+      "county": "Nakuru",
+      "type": "Secondary",
+      "product": "Zeraki Analytics",
+      "registrationDate": "2023-03-01",
+      "contact": "info@rva.org",
+      "balance": 2500
+    },
+    {
+      "id": "15",
+      "name": "St. Andrew's School, Turi",
+      "county": "Nakuru",
+      "type": "IGCSE",
+      "product": "Zeraki Analytics",
+      "registrationDate": "2021-11-01",
+      "contact": "info@turischool.ac.ke",
+      "balance": 5500
+    },
+    {
+      "id": "16",
+      "name": "Kenya High School",
+      "county": "Nairobi",
+      "type": "Secondary",
+      "product": "Zeraki Finance",
+      "registrationDate": "2023-04-01",
+      "contact": "kenyahigh@schools.ac.ke",
+      "balance": 3500
+    },
+    {
+      "id": "17",
+      "name": "Moi Forces Academy",
+      "county": "Nairobi",
+      "type": "Secondary",
+      "product": "Zeraki Timetable",
+      "registrationDate": "2023-07-01",
+      "contact": "moiforces@schools.ac.ke",
+      "balance": 1500
+    },
+    {
+      "id": "18",
+      "name": "Nairobi Academy",
+      "county": "Nairobi",
+      "type": "IGCSE",
+      "product": "Zeraki Analytics",
+      "registrationDate": "2022-03-01",
+      "contact": "info@nairobiacademy.ac.ke",
+      "balance": 4500
+    },
+    {
+      "id": "19",
+      "name": "Loreto Convent Msongari",
+      "county": "Nairobi",
+      "type": "Primary",
+      "product": "Zeraki Finance",
+      "registrationDate": "2023-09-01",
+      "contact": "info@loretomsongari.ac.ke",
+      "balance": 2800
+    },
+    {
+      "id": "20",
+      "name": "Starehe Boys' Centre",
+      "county": "Nairobi",
+      "type": "Secondary",
+      "product": "Zeraki Analytics",
+      "registrationDate": "2022-10-01",
+      "contact": "info@starehe.ac.ke",
+      "balance": 3200
+    },
+    {
+      "id": "21",
+      "name": "Alliance High School",
+      "county": "Kiambu",
+      "type": "Secondary",
+      "product": "Zeraki Timetable",
+      "registrationDate": "2023-05-01",
+      "contact": "info@alliancehigh.ac.ke",
+      "balance": 4200
+    },
+    {
+      "id": "22",
+      "name": "Brookhouse School",
+      "county": "Nairobi",
+      "type": "IGCSE",
+      "product": "Zeraki Analytics",
+      "registrationDate": "2021-06-01",
+      "contact": "info@brookhouse.ac.ke",
+      "balance": 6500
+    },
+    {
+      "id": "23",
+      "name": "Kisumu Day High School",
+      "county": "Kisumu",
+      "type": "Secondary",
+      "product": "Zeraki Finance",
+      "registrationDate": "2022-12-01",
+      "contact": "info@kisumuday.ac.ke",
+      "balance": 3800
+    },
+    {
+      "id": "24",
+      "name": "St. Mary's School",
+      "county": "Nairobi",
+      "type": "IGCSE",
+      "product": "Zeraki Timetable",
+      "registrationDate": "2021-08-01",
+      "contact": "info@stmarys.ac.ke",
+      "balance": 5000
+    },
+    {
+      "id": "25",
+      "name": "Maryhill Girls High School",
+      "county": "Kiambu",
+      "type": "Secondary",
+      "product": "Zeraki Timetable",
+      "registrationDate": "2023-02-01",
+      "contact": "info@maryhillgirls.ac.ke",
+      "balance": 4600
+    },
+    {
+      "id": "26",
+      "name": "Pangani Girls High School",
+      "county": "Nairobi",
+      "type": "Secondary",
+      "product": "Zeraki Finance",
+      "registrationDate": "2022-04-01",
+      "contact": "info@panganigirls.ac.ke",
+      "balance": 2900
+    },
+    {
+      "id": "27",
+      "name": "Lenana School",
+      "county": "Nairobi",
+      "type": "Secondary",
+      "product": "Zeraki Analytics",
+      "registrationDate": "2023-06-01",
+      "contact": "info@lenanaschool.ac.ke",
+      "balance": 3900
+    },
+    {
+      "id": "28",
+      "name": "Nairobi School",
+      "county": "Nairobi",
+      "type": "Secondary",
+      "product": "Zeraki Finance",
+      "registrationDate": "2023-08-01",
+      "contact": "info@nairobischool.ac.ke",
+      "balance": 4400
+    },
+    {
+      "id": "29",
+      "name": "Bishop Gatimu Ngandu Girls High School",
+      "county": "Nyeri",
+      "type": "Secondary",
+      "product": "Zeraki Analytics",
+      "registrationDate": "2023-10-01",
+      "contact": "info@bishopgatimungandugirls.ac.ke",
+      "balance": 4800
+    },
+    {
+      "id": "30",
+      "name": "St. Mary's School, Yala",
+      "county": "Siaya",
+      "type": "Secondary",
+      "product": "Zeraki Timetable",
+      "registrationDate": "2023-12-01",
+      "contact": "info@stmarysyala.ac.ke",
+      "balance": 4200
+    }
+  ],
+  "invoices": [
+    {
+      "id": "1",
+      "school": "Green View Schools",
+      "invoiceDate": "2022-01-01",
+      "dueDate": "2022-02-01",
+      "invoiceStatus": "paid",
+      "amount": 2000,
+      "schoolId": 1,
+      "invoiceNumber": "INV-001",
+      "invoiceItem": "Zeraki Analytics",
+      "creationDate": "2023-05-01",
+      "paidAmount": 4500,
+      "balance": 0
+    },
+    {
+      "id": "2",
+      "school": "Slopes View Schools",
+      "invoiceDate": "2022-05-01",
+      "dueDate": "2022-06-01",
+      "invoiceStatus": "Paid",
+      "amount": 5000,
+      "schoolId": 2,
+      "invoiceNumber": "INV-002",
+      "invoiceItem": "Zeraki Analytics",
+      "creationDate": "2023-05-01",
+      "paidAmount": 0,
+      "balance": 5000
+    },
+    {
+      "id": "3",
+      "school": "Crescent View Schools",
+      "invoiceDate": "2023-11-01",
+      "dueDate": "2023-12-01",
+      "invoiceStatus": "paid",
+      "amount": 1000,
+      "schoolId": 3,
+      "invoiceNumber": "INV-003",
+      "invoiceItem": "Zeraki Analytics",
+      "creationDate": "2023-05-01",
+      "paidAmount": 7800,
+      "balance": 1000
+    },
+    {
+      "id": "4",
+      "school": "Ubora Academy",
+      "invoiceDate": "2020-12-01",
+      "dueDate": "2021-01-01",
+      "invoiceStatus": "paid",
+      "amount": 3000,
+      "schoolId": 4,
+      "invoiceNumber": "INV-004",
+      "invoiceItem": "Zeraki Analytics",
+      "creationDate": "2023-05-01",
+      "paidAmount": 1500,
+      "balance": 0
+    },
+    {
+      "id": "5",
+      "school": "Happy Land Academy",
+      "invoiceDate": "2022-08-08",
+      "dueDate": "2022-09-08",
+      "invoiceStatus": "Paid",
+      "amount": 5000,
+      "schoolId": 5,
+      "invoiceNumber": "INV-005",
+      "invoiceItem": "Zeraki Analytics",
+      "creationDate": "2023-05-01",
+      "paidAmount": 2500,
+      "balance": 5000
+    },
+    {
+      "id": "6",
+      "school": "Nyeri DEB primary school",
+      "invoiceDate": "2024-07-01",
+      "dueDate": "2024-08-01",
+      "invoiceStatus": "Paid",
+      "amount": 1000,
+      "schoolId": 6,
+      "invoiceNumber": "INV-006",
+      "invoiceItem": "Zeraki Analytics",
+      "creationDate": "2023-05-01",
+      "paidAmount": 5000,
+      "balance": 1000
+    },
+    {
+      "id": "7",
+      "school": "Green Valley Preparatory School",
+      "invoiceDate": "2024-02-01",
+      "dueDate": "2024-03-01",
+      "invoiceStatus": "Paid",
+      "amount": 2000,
+      "schoolId": 7,
+      "invoiceNumber": "INV-007",
+      "invoiceItem": "Zeraki Analytics",
+      "creationDate": "2023-05-01",
+      "paidAmount": 7950,
+      "balance": 2000
+    },
+    {
+      "id": "8",
+      "school": "Smart Achievers High School - Kitale",
+      "invoiceDate": "2022-01-01",
+      "dueDate": "2022-02-01",
+      "invoiceStatus": "Paid",
+      "amount": 3000,
+      "schoolId": 8,
+      "invoiceNumber": "INV-008",
+      "invoiceItem": "Zeraki Analytics",
+      "creationDate": "2023-05-01",
+      "paidAmount": 550,
+      "balance": 3000
+    },
+    {
+      "id": "9",
+      "school": "Kapsabet High School",
+      "invoiceDate": "2022-01-01",
+      "dueDate": "2022-02-01",
+      "invoiceStatus": "Paid",
+      "amount": 2000,
+      "schoolId": 1,
+      "invoiceNumber": "INV-009",
+      "invoiceItem": "Zeraki Analytics",
+      "creationDate": "2023-05-01",
+      "paidAmount": 0,
+      "balance": 2000
+    },
+    {
+      "id": "10",
+      "school": "Kagumo High School",
+      "invoiceDate": "2022-01-01",
+      "dueDate": "2022-02-01",
+      "invoiceStatus": "Paid",
+      "amount": 5000,
+      "schoolId": 2,
+      "invoiceNumber": "INV-010",
+      "invoiceItem": "Zeraki Analytics",
+      "creationDate": "2023-05-01",
+      "paidAmount": 5000,
+      "balance": 2000
+    },
+    {
+      "id": "0e88",
+      "school": "Kagumo High School",
+      "invoiceDate": "2024-06-03",
+      "dueDate": "2024-06-12",
+      "amount": "9000",
+      "item": "Zeraki Analytics",
+      "invoiceNumber": "INV-009",
+      "invoiceStatus": "paid"
+    }
+  ],
+  "collections": [
+    {
+      "id": "1",
+      "name": "Crescent View Schools",
+      "invoiceNumber": "INV-001",
+      "collectionNumber": 5,
+      "collectionDate": "2024-12-02",
+      "invoiceItem": "Zeraki Analytics",
+      "invoiceDate": "2020-12-01",
+      "invoiceStatus": "valid",
+      "amount": 4500
+    },
+    {
+      "id": "2",
+      "name": "Slopes View Schools",
+      "invoiceNumber": "INV-001",
+      "collectionNumber": 5,
+      "collectionDate": "2024-12-02",
+      "invoiceItem": "Zeraki Analytics",
+      "invoiceDate": "2020-12-01",
+      "invoiceStatus": "valid",
+      "amount": 4500
+    },
+    {
+      "id": "3",
+      "name": "Alliance High School",
+      "invoiceNumber": "INV-001",
+      "collectionNumber": 5,
+      "collectionDate": "2024-12-02",
+      "invoiceItem": "Zeraki Analytics",
+      "invoiceDate": "2020-12-01",
+      "invoiceStatus": "valid",
+      "amount": 4500
+    }
+  ],
+  "bouncedCheques": [
+    {
+      "id": "1",
+      "name": "Alliance High School",
+      "dateIssued": "2024-12-02",
+      "invoiceStatus": "bounced"
+    },
+    {
+      "id": "1",
+      "name": "Ubora Academy",
+      "dateIssued": "2023-12-02",
+      "invoiceStatus": "bounced"
+    },
+    {
+      "id": "3",
+      "name": "Happy Land Academy",
+      "dateIssued": "2023-12-02",
+      "invoiceStatus": "bounced"
+    },
+    {
+      "id": "4",
+      "name": "Crescent View Schools",
+      "dateIssued": "2024-01-01",
+      "product": "Zeraki Timetable",
+      "invoiceStatus": "bounced"
+    },
+    {
+      "id": "5",
+      "name": "Bishop Gatimu Ngandu Girls High School",
+      "dateIssued": "2024-02-02",
+      "product": "Zeraki Analytics",
+      "invoiceStatus": "bounced"
+    }
+  ],
+  "zerakiAnalytics": [
+    {
+      "id": "1",
+      "product": "Zeraki Analytics",
+      "target": 50,
+      "enrolled": 37
+    }
+  ],
+  "zerakiFinance": [
+    {
+      "id": "2",
+      "product": "Zeraki Finance",
+      "target": 50,
+      "enrolled": 65
+    }
+  ],
+  "zerakiTimetable": [
+    {
+      "id": "3",
+      "product": "Zeraki Timetable",
+      "target": 120,
+      "enrolled": 58
+    }
+  ]
+}
