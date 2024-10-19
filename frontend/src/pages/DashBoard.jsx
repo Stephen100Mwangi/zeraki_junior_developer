@@ -39,7 +39,7 @@ const DashBoard = () => {
         console.log(user_data);
       })
       .catch(error => console.error("Error fetching invoices:", error));
-  }, []);
+  }, [user_data]);
 
   const updateInvoices = () => {
     fetch(`${apiUrl}/invoices?invoiceNumber=${InvoiceNumber_School}&school=${name_SchoolInvoice}`)
