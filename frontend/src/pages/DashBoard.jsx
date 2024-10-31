@@ -23,23 +23,31 @@ const DashBoard = () => {
   const [InvoiceNumber_School, setInvoiceNumber_School] = useState("");
 
    const apiUrl = import.meta.env.VITE_API_URL;
-  useEffect(() => {
-    const apiUrl = import.meta.env.VITE_API_URL;
-    fetch(`${apiUrl}/invoices?_sort=invoiceDate&_order=desc`,{method:"GET"})
-      .then(response => {
-        if (!response.ok) {
-          console.log("No response found");
-        } else {
-          console.log("Response found");
-          return response.json();
-        }
-      })
-      .then(data => {
-        setData(data);
-        console.log(user_data);
-      })
+
+   useEffect(() => {
+    fetch(`${apiUrl}/invoices?_sort=invoiceDate&_order=desc`, { method: "GET" })
+      .then(response => response.ok ? response.json() : Promise.reject("No response found"))
+      .then(data => setData(data))
       .catch(error => console.error("Error fetching invoices:", error));
-  }, [user_data]);
+}, [apiUrl]);
+
+  // useEffect(() => {
+  //   const apiUrl = import.meta.env.VITE_API_URL;
+  //   fetch(`${apiUrl}/invoices?_sort=invoiceDate&_order=desc`,{method:"GET"})
+  //     .then(response => {
+  //       if (!response.ok) {
+  //         console.log("No response found");
+  //       } else {
+  //         console.log("Response found");
+  //         return response.json();
+  //       }
+  //     })
+  //     .then(data => {
+  //       setData(data);
+  //       console.log(user_data);
+  //     })
+  //     .catch(error => console.error("Error fetching invoices:", error));
+  // }, [user_data]);
 
   const updateInvoices = () => {
     fetch(`${apiUrl}/invoices?invoiceNumber=${InvoiceNumber_School}&school=${name_SchoolInvoice}`,{method:"GET"})
