@@ -8,7 +8,7 @@ const BouncedCheques = () => {
      const apiUrl = import.meta.env.VITE_API_URL;
     
 
-    fetch(`${apiUrl}/bouncedCheques`).then(response =>{
+    fetch(`${apiUrl}/bouncedCheques`,{method:"GET"}).then(response =>{
       if (!response) {
         console.log("No response found");
       }else{

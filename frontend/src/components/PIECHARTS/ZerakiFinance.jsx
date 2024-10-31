@@ -10,7 +10,7 @@ const ZerakiFinance = () => {
   const [target,setTarget] = useState(70);
 
   useEffect(() => {
-    fetch("http://localhost:8000/zerakiFinance").then(response =>{
+    fetch("http://localhost:8000/zerakiFinance",{method:"GET"}).then(response =>{
       if (!response) {
         console.log("Response NOT found");
       }

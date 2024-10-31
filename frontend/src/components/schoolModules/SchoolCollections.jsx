@@ -7,7 +7,7 @@ const SchoolCollections = () => {
   const [collectionsShown,setCollectionsShown] = useState([]);
 
   const showCollections = ()=>{
-    fetch(`http://localhost:8000/collections`).then(response => {
+    fetch(`http://localhost:8000/collections`,{method:"GET"}).then(response => {
       if (!response.ok) {
         console.log("Response not found")
       }else{
@@ -28,7 +28,7 @@ const SchoolCollections = () => {
 
   const updateCollections = async (targetID) => {
     try {
-      const response = await fetch(`http://localhost:8000/collections?id=${encodeURIComponent(targetID)}`);
+      const response = await fetch(`http://localhost:8000/collections?id=${encodeURIComponent(targetID)}`,{method:"GET"});
       if (!response.ok) {
         console.log('Response not found');
         return;

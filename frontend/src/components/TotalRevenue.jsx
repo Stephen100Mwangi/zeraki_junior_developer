@@ -14,7 +14,7 @@ const TotalRevenue = () => {
 
   useEffect(()=>{
     const apiUrl = import.meta.env.VITE_API_URL;
-    fetch(`${apiUrl}/collections`).then(response => {
+    fetch(`${apiUrl}/collections`,{method:"GET"}).then(response => {
       return response.json();
     }).then(data =>{
       console.log(data);

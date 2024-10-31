@@ -25,7 +25,7 @@ const DashBoard = () => {
    const apiUrl = import.meta.env.VITE_API_URL;
   useEffect(() => {
     const apiUrl = import.meta.env.VITE_API_URL;
-    fetch(`${apiUrl}/invoices?_sort=invoiceDate&_order=desc`)
+    fetch(`${apiUrl}/invoices?_sort=invoiceDate&_order=desc`,{method:"GET"})
       .then(response => {
         if (!response.ok) {
           console.log("No response found");
@@ -42,7 +42,7 @@ const DashBoard = () => {
   }, [user_data]);
 
   const updateInvoices = () => {
-    fetch(`${apiUrl}/invoices?invoiceNumber=${InvoiceNumber_School}&school=${name_SchoolInvoice}`)
+    fetch(`${apiUrl}/invoices?invoiceNumber=${InvoiceNumber_School}&school=${name_SchoolInvoice}`,{method:"GET"})
       .then(response => {
         if (!response.ok) {
           console.log("No response found");

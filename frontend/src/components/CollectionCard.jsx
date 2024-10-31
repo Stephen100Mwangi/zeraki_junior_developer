@@ -4,7 +4,7 @@ const CollectionCard = () => {
   const [count,setCount] = useState(0);
   useEffect(()=>{
     const apiUrl = import.meta.env.VITE_API_URL;
-    fetch(`${apiUrl}/collections`).then(response => {
+    fetch(`${apiUrl}/collections`,{method:"GET"}).then(response => {
       return response.json()
     }).then((data)=>{
       setCount(data.length);

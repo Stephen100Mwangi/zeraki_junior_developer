@@ -11,7 +11,7 @@ const ZerakiTimeTable = () => {
   
 
   useEffect(() => {
-    fetch("http://localhost:8000/zerakiTimetable").then(response =>{
+    fetch("http://localhost:8000/zerakiTimetable",{method:"GET"}).then(response =>{
       if (!response) {
         console.log("Response NOT found");
       }

@@ -14,7 +14,7 @@ const ZerakiAnalytics = () => {
   const [target,setTarget] = useState(70);
 
   useEffect(() => {
-    fetch("http://localhost:8000/zerakiAnalytics").then(response =>{
+    fetch("http://localhost:8000/zerakiAnalytics",{method:"GET"}).then(response =>{
       if (!response) {
         console.log("Response not found");
       }

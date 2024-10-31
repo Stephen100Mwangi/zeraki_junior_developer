@@ -15,7 +15,7 @@ const SignUpsCard = () => {
 
   useEffect(() =>{
     const apiUrl = import.meta.env.VITE_API_URL;
-    fetch(`${apiUrl}/schools`).then(response =>{
+    fetch(`${apiUrl}/schools`,{method:"GET"}).then(response =>{
       return response.json();
     }).then(data =>{
       console.log(data);

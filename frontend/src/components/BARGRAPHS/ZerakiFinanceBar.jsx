@@ -13,7 +13,7 @@ const ZerakiFinanceBar = () => {
 
   useEffect(() => {
     try {
-      fetch("http://localhost:8000/schools").then(response =>{
+      fetch("http://localhost:8000/schools",{method:"GET"}).then(response =>{
         if (!response) {
           console.error("No response fetched")
         }

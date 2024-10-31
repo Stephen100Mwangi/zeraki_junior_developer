@@ -52,7 +52,7 @@ const SchoolInvoices = () => {
   };
 
   useEffect(() => {
-    fetch("http://localhost:8000/schools")
+    fetch("http://localhost:8000/schools",{method:"GET"})
       .then((response) => {
         if (!response.ok) {
           console.log("Response NOT Found");
@@ -67,7 +67,7 @@ const SchoolInvoices = () => {
 
   const showInvoice = (schoolName) => {
     fetch(
-      `http://localhost:8000/invoices?school=${encodeURIComponent(schoolName)}`
+      `http://localhost:8000/invoices?school=${encodeURIComponent(schoolName)}`,{method:"GET"}
     )
       .then((response) => {
         if (!response.ok) {

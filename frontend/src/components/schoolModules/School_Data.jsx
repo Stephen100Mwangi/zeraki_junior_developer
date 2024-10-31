@@ -11,7 +11,7 @@ const School_Data = () => {
 
 
     useEffect(()=>{
-        fetch("http://localhost:8000/schools").then(response => {
+        fetch("http://localhost:8000/schools",{method:"GET"}).then(response => {
           if (!response.ok) {
             console.log("Response NOT Found")
           }else{
